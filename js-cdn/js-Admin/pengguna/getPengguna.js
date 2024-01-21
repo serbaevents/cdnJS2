@@ -63,7 +63,6 @@ export function isiRow(value) {
     .replace("#TANGGALLAHIR#", value.tanggallahir)
     .replace("#JENISKELAMIN#", value.jeniskelamin)
     .replace("#NOMORHP#", value.nomorhp)
-    .replace("#ALAMAT#", value.alamat)
-    .replace("#IDHAPUS#", value._id);
+    .replace("#ALAMAT#", value.alamat);
   addInner("tableDaftarPengguna", content);
 }
